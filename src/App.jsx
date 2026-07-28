@@ -8,7 +8,8 @@ import Projects from './components/Projects';
 import Publications from './components/Publications';
 import Footer from './components/Footer';
 import DarkModeToggle from './components/DarkModeToggle';
-import portfolioData from '../public/portfolio.json';
+import portfolioData from './portfolio.json';
+
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);

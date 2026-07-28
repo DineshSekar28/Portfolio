@@ -1,0 +1,222 @@
+{
+  "personal": {
+    "name": "Dinesh Sekar",
+    "title": "Lead AI Architect",
+    "headline": "AI/ML Architect | GenAI Orchestration | Enterprise Solutions",
+    "email": "dinesh.sekar91@gmail.com",
+    "location": "Texas, USA",
+    "bio": "Lead AI Architect at Citibank with 10+ years in banking and fintech. Specialized in GenAI orchestration, agentic systems, and enterprise-scale ML infrastructure. Building LUNA—a deterministic, policy-driven GenAI platform for regulated finance.",
+    "github": "https://github.com/DineshSekar28",
+    "linkedin": "https://www.linkedin.com/in/dinesh-sekar/",
+    "medium": "https://medium.com/@dineshsekar_65514",
+    "headshot": "dinesh_headshot.png"
+  },
+  "experience": [
+    {
+      "id": 1,
+      "title": "Lead AI Architect",
+      "company": "Citibank",
+      "startDate": "2018-09",
+      "endDate": "present",
+      "location": "New York, USA",
+      "description": "Architecting LUNA—a deterministic, policy-driven GenAI orchestration platform for regulated banking. Own AI/ML layer: GenAI models, Knowledge Graph, Model Governance, Data Pipelines, Analytics.",
+      "highlights": [
+        "GenAI orchestration & agentic systems",
+        "Confidence-gated retrieval (not RAG)",
+        "Knowledge Graph design & implementation",
+        "Model governance & compliance layer",
+        "Enterprise data pipelines & ETL",
+        "Production LLM integration & prompt engineering"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Fraud Detection ML + ETL & Data Management",
+      "company": "Citibank",
+      "startDate": "2013-09",
+      "endDate": "2018-08",
+      "location": "New York, USA",
+      "description": "Built machine learning models for fraud detection. Designed and maintained enterprise ETL pipelines and data warehousing infrastructure.",
+      "highlights": [
+        "Fraud detection ML models",
+        "ETL pipeline design & optimization",
+        "Data warehouse architecture",
+        "SQL & Python backend development"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "ETL Data Manager",
+      "company": "Royal Bank of Scotland",
+      "startDate": "2013-01",
+      "endDate": "2016-12",
+      "location": "Edinburgh, Scotland",
+      "description": "Managed enterprise ETL processes and data management infrastructure for banking operations.",
+      "highlights": [
+        "ETL pipeline management",
+        "Data quality & governance",
+        "SQL & database optimization",
+        "Stakeholder reporting"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "degree": "Masters in Information Systems",
+      "specialization": "Enterprise Technology Management",
+      "institution": "University of Colorado",
+      "startDate": "2016-01",
+      "endDate": "2018-05",
+      "location": "Boulder, Colorado, USA"
+    }
+  ],
+  "skills": [
+    {
+      "category": "GenAI & LLM",
+      "items": [
+        "LLM Orchestration",
+        "Agentic Systems",
+        "Prompt Engineering",
+        "Confidence-Gating",
+        "Knowledge Graphs",
+        "Model Governance"
+      ]
+    },
+    {
+      "category": "Backend & Data",
+      "items": [
+        "Go",
+        "Python",
+        "PostgreSQL",
+        "Data Pipelines",
+        "ETL Design",
+        "Analytics"
+      ]
+    },
+    {
+      "category": "Frontend & Tools",
+      "items": [
+        "React/TypeScript",
+        "JavaScript",
+        "Node.js",
+        "FastAPI",
+        "REST APIs"
+      ]
+    },
+    {
+      "category": "Infrastructure",
+      "items": [
+        "Railway",
+        "Firebase/Firestore",
+        "Supabase",
+        "GitHub Actions",
+        "Docker"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Parsemoney",
+      "status": "live",
+      "description": "Claude-specific API gateway & OpenAI-to-Claude translation layer. End-to-end verified auth, real API calls, prompt cache hit cycle.",
+      "tags": ["Go", "React", "PostgreSQL", "LLM", "API Gateway"],
+      "github": "https://github.com/DineshSekar28/parsemoney",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Tokenomics",
+      "status": "live",
+      "description": "Multilingual AI tokenomics dashboard. Visualizes BPE tokenizer inefficiency across non-Latin scripts with interactive charts.",
+      "tags": ["React/Vite", "FastAPI", "Tokenization", "Data Viz"],
+      "github": "https://github.com/DineshSekar28/Tokenomics",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "name": "MARIS",
+      "status": "live",
+      "description": "MultiAgent App Review Intelligence System. Agentic pipeline for intelligent review analysis and insights.",
+      "tags": ["Python", "Agentic", "FastAPI", "LLM"],
+      "github": "https://github.com/DineshSekar28/maris",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "name": "Auriferous",
+      "status": "concept",
+      "description": "AI-powered interview screening simulator. DeepSeek-powered 3-stage agentic pipeline for technical interviews.",
+      "tags": ["Python", "Agentic", "DeepSeek", "PostgreSQL"],
+      "github": null,
+      "featured": false
+    },
+    {
+      "id": 5,
+      "name": "BingeBoard",
+      "status": "live",
+      "description": "Media recommender system with intelligent content suggestions.",
+      "tags": ["React", "Python", "Recommendation Engine"],
+      "github": "https://github.com/DineshSekar28/BingeBoard",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "name": "Credit Card Approval ML",
+      "status": "live",
+      "description": "Machine learning model for credit card approval prediction.",
+      "tags": ["Python", "ML", "Scikit-learn"],
+      "github": "https://github.com/DineshSekar28/CreditCardApproval-ML",
+      "featured": false
+    }
+  ],
+  "publications": [
+    {
+      "id": 1,
+      "title": "Parsemoney: A Request-Translation Layer for LLM, and What It Actually Costs to Cache a Prompt",
+      "platform": "Medium",
+      "date": "2024-07-18",
+      "url": "https://medium.com/@dineshsekar_65514/parsemoney-a-request-translation-layer-for-llm-and-what-it-actually-costs-to-cache-a-prompt-053614074ad5",
+      "excerpt": "Gateway projects solve the easy problem. This explores real costs, caching strategies, and production-grade LLM integration."
+    },
+    {
+      "id": 2,
+      "title": "Coming Soon",
+      "platform": "Medium",
+      "date": "2024-07-25",
+      "url": null,
+      "excerpt": "Posting this weekend. TBD."
+    },
+    {
+      "id": 3,
+      "title": "Coming Soon",
+      "platform": "Medium",
+      "date": "2024-07-25",
+      "url": null,
+      "excerpt": "Posting this weekend. TBD."
+    }
+  ],
+  "contact": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/DineshSekar28",
+      "label": "GitHub"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/dinesh-sekar/",
+      "label": "LinkedIn"
+    },
+    {
+      "platform": "Medium",
+      "url": "https://medium.com/@dineshsekar_65514",
+      "label": "Medium"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:dinesh.sekar91@gmail.com",
+      "label": "Email"
+    }
+  ]
+}
