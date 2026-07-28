@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaMedium } from 'react-icons/fa';
+import Reveal from './Reveal';
 
 function Publications({ data }) {
   const published = data.filter(p => p.url);
@@ -9,16 +11,18 @@ function Publications({ data }) {
         <h2>Publications</h2>
         <div className="publications-list">
           {published.length > 0 ? (
-            published.map((pub) => (
-              <div key={pub.id} className="publication-item">
-                <a href={pub.url} target="_blank" rel="noopener noreferrer" className="publication-link">
-                  <h3>{pub.title}</h3>
-                </a>
-                <div className="publication-meta">
-                  {pub.platform} • {new Date(pub.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+            published.map((pub, idx) => (
+              <Reveal key={pub.id} index={idx}>
+                <div className="publication-item">
+                  <a href={pub.url} target="_blank" rel="noopener noreferrer" className="publication-link">
+                    <h3><FaMedium className="link-icon" /> {pub.title}</h3>
+                  </a>
+                  <div className="publication-meta">
+                    {pub.platform} • {new Date(pub.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+                  </div>
+                  <p>{pub.excerpt}</p>
                 </div>
-                <p>{pub.excerpt}</p>
-              </div>
+              </Reveal>
             ))
           ) : (
             <p style={{ color: 'var(--text-secondary)' }}>Coming soon...</p>

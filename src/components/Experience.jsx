@@ -1,4 +1,5 @@
 import React from 'react';
+import Reveal from './Reveal';
 
 function Experience({ data }) {
   const formatDate = (dateStr) => {
@@ -13,23 +14,25 @@ function Experience({ data }) {
       <div className="container">
         <h2>Experience</h2>
         <div className="experience-list">
-          {data.map((exp) => (
-            <div key={exp.id} className="experience-item">
-              <h3>{exp.title}</h3>
-              <div className="meta">
-                {exp.company} • {exp.location} • {formatDate(exp.startDate)} – {formatDate(exp.endDate)}
-              </div>
-              <p>{exp.description}</p>
-              {exp.highlights && (
-                <div className="highlights">
-                  {exp.highlights.map((highlight, idx) => (
-                    <span key={idx} className="highlight-tag">
-                      {highlight}
-                    </span>
-                  ))}
+          {data.map((exp, idx) => (
+            <Reveal key={exp.id} index={idx}>
+              <div className="experience-item">
+                <h3>{exp.title}</h3>
+                <div className="meta">
+                  {exp.company} • {exp.location} • {formatDate(exp.startDate)} – {formatDate(exp.endDate)}
                 </div>
-              )}
-            </div>
+                <p>{exp.description}</p>
+                {exp.highlights && (
+                  <div className="highlights">
+                    {exp.highlights.map((highlight, hIdx) => (
+                      <span key={hIdx} className="highlight-tag">
+                        {highlight}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </Reveal>
           ))}
         </div>
       </div>

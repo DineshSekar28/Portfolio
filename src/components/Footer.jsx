@@ -1,4 +1,5 @@
 import React from 'react';
+import SocialLinks from './SocialLinks';
 
 function Footer({ data }) {
   return (
@@ -6,11 +7,7 @@ function Footer({ data }) {
       <div className="container">
         <div className="footer-content">
           <div className="footer-links">
-            {data.map((link, idx) => (
-              <a key={idx} href={link.url} target="_blank" rel="noopener noreferrer" className="footer-link">
-                {link.label}
-              </a>
-            ))}
+            <SocialLinks data={data} className="social-icon-link" />
           </div>
           <p>© 2024 Dinesh Sekar. Built with React. Designed for clarity.</p>
         </div>
