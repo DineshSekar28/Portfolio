@@ -1,2 +1,42 @@
+# Node dependencies
 node_modules/
+
+# Lockfile (optional): the project previously ignored package-lock.json
 package-lock.json
+
+# Build output
+build/
+static/
+
+# Generated public outputs
+/public/
+
+# Environment files
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local mounts and outputs
+mnt/
+user-data/
+outputs/
+
+# Coverage
+coverage/
+
+# Misc
+*.local

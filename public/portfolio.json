@@ -5,7 +5,7 @@
     "headline": "AI/ML Architect | GenAI Orchestration | Enterprise Solutions",
     "email": "dinesh.sekar91@gmail.com",
     "location": "Texas, USA",
-    "bio": "Lead AI Architect at Citibank with 10+ years in banking and fintech. Specialized in GenAI orchestration, agentic systems, and enterprise-scale ML infrastructure. Building LUNA—a deterministic, policy-driven GenAI platform for regulated finance.",
+    "bio": "Lead AI Architect at Citibank with 10+ years in banking and fintech. Specialized in GenAI orchestration, agentic systems, and enterprise-scale ML infrastructure. Building a deterministic, policy-driven GenAI platform for regulated finance.",
     "github": "https://github.com/DineshSekar28",
     "linkedin": "https://www.linkedin.com/in/dinesh-sekar/",
     "medium": "https://medium.com/@dineshsekar_65514",
@@ -19,7 +19,7 @@
       "startDate": "2018-09",
       "endDate": "present",
       "location": "New York, USA",
-      "description": "Architecting LUNA—a deterministic, policy-driven GenAI orchestration platform for regulated banking. Own AI/ML layer: GenAI models, Knowledge Graph, Model Governance, Data Pipelines, Analytics.",
+      "description": "Architecting a deterministic, policy-driven GenAI orchestration platform for regulated banking. Own AI/ML layer: GenAI models, Knowledge Graph, Model Governance, Data Pipelines, Analytics.",
       "highlights": [
         "GenAI orchestration & agentic systems",
         "Confidence-gated retrieval (not RAG)",
