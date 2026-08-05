@@ -40,6 +40,16 @@ function Certifications({ data }) {
                     </span>
                   )}
                 </div>
+                {cert.credentialUrl && (
+                  <a 
+                    href={cert.credentialUrl} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="cert-link"
+                  >
+                    View Credential →
+                  </a>
+                )}
               </div>
             </div>
           ))}
