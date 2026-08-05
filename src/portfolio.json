@@ -258,7 +258,7 @@
     "date": "2024-12",
     "expiryDate": "2025-12",
     "logo": "Microsoft-logo.png",
-    "status": "active"
+    "status": "expired"
   },
   {
     "id": 2,
@@ -281,7 +281,7 @@
     "name": "Authentication and Authorization for Web/API (LFEL1004)",
     "issuer": "The Linux Foundation",
     "date": "2026-07",
-    "logo": "linux-logo.png",
+    "logo": "Linux-logo.png",
     "status": "active"
   },
   {
@@ -289,7 +289,7 @@
     "name": "DP-700: Implementing Data Engineering Solutions Using Microsoft Fabric",
     "issuer": "Microsoft",
     "date": null,
-    "logo": "microsoft-logo.png",
+    "logo": "Microsoft-logo.png",
     "status": "planned"
   }
 ],
