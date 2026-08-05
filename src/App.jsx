@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Publications from './components/Publications';
 import Footer from './components/Footer';
 import portfolioData from './portfolio.json';
+import Certifications from './components/Certifications';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       <Hero data={portfolioData.personal} />
       <Experience data={portfolioData.experience} />
       <Skills data={portfolioData.skills} />
+      <Certifications data={portfolioData.certifications} />
       <Projects data={portfolioData.projects} />
       <Publications data={portfolioData.publications} />
       <Footer data={portfolioData.contact} />

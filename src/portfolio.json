@@ -14,7 +14,7 @@
   "experience": [
     {
       "id": 1,
-      "title": "Lead AI Architect",
+      "title": "AI Architect",
       "company": "Citibank",
       "startDate": "2024-04",
       "endDate": "present",
@@ -31,7 +31,7 @@
     },
     {
       "id": 2,
-      "title": "Fraud Detection ML + ETL & Data Management",
+      "title": "ML Engineer",
       "company": "Citibank",
       "startDate": "2018-09",
       "endDate": "2024-04",
@@ -48,8 +48,8 @@
       "id": 3,
       "title": "ETL Data Manager",
       "company": "Royal Bank of Scotland",
-      "startDate": "2013-01",
-      "endDate": "2016-06",
+      "startDate": "2013-06",
+      "endDate": "2016-07",
       "location": "Chennai, India",
       "description": "Managed enterprise ETL processes and data management infrastructure for banking operations.",
       "highlights": [
@@ -66,7 +66,7 @@
       "degree": "Masters in Information Systems",
       "specialization": "Enterprise Technology Management",
       "institution": "University of Colorado",
-      "startDate": "2016-08",
+      "startDate": "2016-07",
       "endDate": "2018-05",
       "location": "Denver, Colorado, USA"
     }
@@ -250,6 +250,49 @@
       "excerpt": "Posting this weekend. TBD."
     }
   ],
+  "certifications": [
+  {
+    "id": 1,
+    "name": "Microsoft Certified: Azure Data Scientist Associate",
+    "issuer": "Microsoft",
+    "date": "2024-12",
+    "expiryDate": "2025-12",
+    "logo": "Microsoft-logo.png",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "name": "Architecting an AI Inference Stack",
+    "issuer": "Google",
+    "date": "2026-07",
+    "logo": "google-logo.png",
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "name": "Python for Data Science and AI",
+    "issuer": "IBM",
+    "date": "2023-03",
+    "logo": "IBM-logo.png",
+    "status": "active"
+  },
+  {
+    "id": 4,
+    "name": "Authentication and Authorization for Web/API (LFEL1004)",
+    "issuer": "The Linux Foundation",
+    "date": "2026-07",
+    "logo": "linux-logo.png",
+    "status": "active"
+  },
+  {
+    "id": 5,
+    "name": "DP-700: Implementing Data Engineering Solutions Using Microsoft Fabric",
+    "issuer": "Microsoft",
+    "date": null,
+    "logo": "microsoft-logo.png",
+    "status": "planned"
+  }
+],
   "contact": [
     {
       "platform": "GitHub",
