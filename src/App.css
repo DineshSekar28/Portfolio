@@ -302,7 +302,7 @@ section h2::after {
 .hero-image-frame img {
   display: block;
   width: 100%;
-  max-width: 400px;
+  max-width: 200px;
   height: auto;
   border-radius: calc(var(--radius-lg) - 6px);
 }
