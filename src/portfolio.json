@@ -5,7 +5,7 @@
     "headline": "AI/ML Architect | GenAI Orchestration | Enterprise Solutions",
     "email": "dinesh.sekar91@gmail.com",
     "location": "Texas, USA",
-    "bio": "Lead AI Architect at Citibank with 10+ years in banking and fintech. Specialized in GenAI orchestration, agentic systems, and enterprise-scale ML infrastructure. Building a deterministic, policy-driven GenAI platform for regulated finance.",
+    "bio": "Lead AI Architect at Citibank with 10+ years in banking and fintech. Specialized in GenAI orchestration, agentic systems, and enterprise-scale ML infrastructure. Expertise building deterministic, policy-driven GenAI platform for regulated finance.",
     "github": "https://github.com/DineshSekar28",
     "linkedin": "https://www.linkedin.com/in/dinesh-sekar/",
     "medium": "https://medium.com/@dineshsekar_65514",
@@ -16,9 +16,9 @@
       "id": 1,
       "title": "Lead AI Architect",
       "company": "Citibank",
-      "startDate": "2018-09",
+      "startDate": "2024-04",
       "endDate": "present",
-      "location": "New York, USA",
+      "location": "Dallas, USA",
       "description": "Architecting a deterministic, policy-driven GenAI orchestration platform for regulated banking. Own AI/ML layer: GenAI models, Knowledge Graph, Model Governance, Data Pipelines, Analytics.",
       "highlights": [
         "GenAI orchestration & agentic systems",
@@ -33,9 +33,9 @@
       "id": 2,
       "title": "Fraud Detection ML + ETL & Data Management",
       "company": "Citibank",
-      "startDate": "2013-09",
-      "endDate": "2018-08",
-      "location": "New York, USA",
+      "startDate": "2018-09",
+      "endDate": "2024-04",
+      "location": "Dallas, USA",
       "description": "Built machine learning models for fraud detection. Designed and maintained enterprise ETL pipelines and data warehousing infrastructure.",
       "highlights": [
         "Fraud detection ML models",
@@ -49,8 +49,8 @@
       "title": "ETL Data Manager",
       "company": "Royal Bank of Scotland",
       "startDate": "2013-01",
-      "endDate": "2016-12",
-      "location": "Edinburgh, Scotland",
+      "endDate": "2016-06",
+      "location": "Chennai, India",
       "description": "Managed enterprise ETL processes and data management infrastructure for banking operations.",
       "highlights": [
         "ETL pipeline management",
@@ -66,55 +66,108 @@
       "degree": "Masters in Information Systems",
       "specialization": "Enterprise Technology Management",
       "institution": "University of Colorado",
-      "startDate": "2016-01",
+      "startDate": "2016-08",
       "endDate": "2018-05",
-      "location": "Boulder, Colorado, USA"
+      "location": "Denver, Colorado, USA"
     }
   ],
   "skills": [
-    {
-      "category": "GenAI & LLM",
-      "items": [
-        "LLM Orchestration",
-        "Agentic Systems",
-        "Prompt Engineering",
-        "Confidence-Gating",
-        "Knowledge Graphs",
-        "Model Governance"
-      ]
-    },
-    {
-      "category": "Backend & Data",
-      "items": [
-        "Go",
-        "Python",
-        "PostgreSQL",
-        "Data Pipelines",
-        "ETL Design",
-        "Analytics"
-      ]
-    },
-    {
-      "category": "Frontend & Tools",
-      "items": [
-        "React/TypeScript",
-        "JavaScript",
-        "Node.js",
-        "FastAPI",
-        "REST APIs"
-      ]
-    },
-    {
-      "category": "Infrastructure",
-      "items": [
-        "Railway",
-        "Firebase/Firestore",
-        "Supabase",
-        "GitHub Actions",
-        "Docker"
-      ]
-    }
-  ],
+  {
+    "category": "GenAI & LLM Core",
+    "items": [
+      "LLMs (Large Language Models)",
+      "RAG (Retrieval-Augmented Generation)",
+      "Prompt Engineering",
+      "Transformer Architectures",
+      "Vector Databases",
+      "Embeddings",
+      "GPT-4",
+      "Claude"
+    ]
+  },
+  {
+    "category": "Agentic AI Systems",
+    "items": [
+      "Autonomous Agents",
+      "Multi-Agent Orchestration",
+      "Planning/Reasoning",
+      "LangChain",
+      "LangChain Agents",
+      "Tool Chaining",
+      "Agent Memory",
+      "Workflow Automation"
+    ]
+  },
+  {
+    "category": "Fine-Tuning & Optimization",
+    "items": [
+      "Fine-tuning",
+      "LoRA (Low-Rank Adaptation)",
+      "Hugging Face",
+      "LangGraph",
+      "Inference Optimization",
+      "Semantic Search"
+    ]
+  },
+  {
+    "category": "Production & DevOps",
+    "items": [
+      "Docker",
+      "Kubernetes",
+      "CI/CD Pipelines",
+      "Model Versioning",
+      "PyTorch",
+      "Containerization",
+      "Model Serving"
+    ]
+  },
+  {
+    "category": "Data & Knowledge Systems",
+    "items": [
+      "Databricks",
+      "Apache Spark",
+      "dbt",
+      "ETL Pipelines",
+      "Data Preprocessing",
+      "Model Drift Detection",
+      "Performance Monitoring"
+    ]
+  },
+  {
+    "category": "Enterprise & Compliance",
+    "items": [
+      "API Integration",
+      "Data Governance",
+      "PII Handling",
+      "Audit Trails",
+      "Model Risk Management",
+      "Explainability",
+      "Responsible AI"
+    ]
+  },
+  {
+    "category": "Cloud & Infrastructure",
+    "items": [
+      "AWS",
+      "Azure",
+      "Azure OpenAI",
+      "Azure ML",
+      "Terraform",
+      "Infrastructure as Code"
+    ]
+  },
+  {
+    "category": "Security & Governance",
+    "items": [
+      "GDPR",
+      "Encryption",
+      "Access Controls",
+      "Data Quality",
+      "Regulatory Readiness",
+      "Anomaly Detection"
+    ]
+  }
+],
   "projects": [
     {
       "id": 1,
@@ -215,7 +268,7 @@
     },
     {
       "platform": "Email",
-      "url": "mailto:dinesh.sekar91@gmail.com",
+      "url": "mailto:dinesh@sekarvr.com",
       "label": "Email"
     }
   ]
