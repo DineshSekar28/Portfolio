@@ -939,3 +939,17 @@ footer {
 .cert-link:hover {
   color: var(--ink);
 }
+.exp-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: var(--transition);
+}
+
+.exp-link:hover {
+  color: var(--ink);
+  transform: translateX(2px);
+}

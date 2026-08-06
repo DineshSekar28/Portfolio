@@ -12,54 +12,57 @@
     "headshot": "dinesh_headshot.png"
   },
   "experience": [
-    {
-      "id": 1,
-      "title": "AI Architect",
-      "company": "Citibank",
-      "startDate": "2024-04",
-      "endDate": "present",
-      "location": "Dallas, USA",
-      "description": "Architecting a deterministic, policy-driven GenAI orchestration platform for regulated banking. Own AI/ML layer: GenAI models, Knowledge Graph, Model Governance, Data Pipelines, Analytics.",
-      "highlights": [
-        "GenAI orchestration & agentic systems",
-        "Confidence-gated retrieval (not RAG)",
-        "Knowledge Graph design & implementation",
-        "Model governance & compliance layer",
-        "Enterprise data pipelines & ETL",
-        "Production LLM integration & prompt engineering"
-      ]
-    },
-    {
-      "id": 2,
-      "title": "ML Engineer",
-      "company": "Citibank",
-      "startDate": "2018-09",
-      "endDate": "2024-04",
-      "location": "Dallas, USA",
-      "description": "Built machine learning models for fraud detection. Designed and maintained enterprise ETL pipelines and data warehousing infrastructure.",
-      "highlights": [
-        "Fraud detection ML models",
-        "ETL pipeline design & optimization",
-        "Data warehouse architecture",
-        "SQL & Python backend development"
-      ]
-    },
-    {
-      "id": 3,
-      "title": "ETL Data Manager",
-      "company": "Royal Bank of Scotland",
-      "startDate": "2013-06",
-      "endDate": "2016-07",
-      "location": "Chennai, India",
-      "description": "Managed enterprise ETL processes and data management infrastructure for banking operations.",
-      "highlights": [
-        "ETL pipeline management",
-        "Data quality & governance",
-        "SQL & database optimization",
-        "Stakeholder reporting"
-      ]
-    }
-  ],
+  {
+    "id": 1,
+    "title": "Lead AI Architect",
+    "company": "Citibank",
+    "startDate": "2024-04",
+    "endDate": "present",
+    "location": "Dallas, USA",
+    "description": "Architecting a deterministic, policy-driven GenAI orchestration platform for regulated banking. Own AI/ML layer: GenAI models, Knowledge Graph, Model Governance, Data Pipelines, Analytics.",
+    "architectureUrl": "https://architecture.sekarvr.com/",
+    "highlights": [
+      "GenAI orchestration & agentic systems",
+      "Confidence-gated retrieval (not RAG)",
+      "Knowledge Graph design & implementation",
+      "Model governance & compliance layer",
+      "Enterprise data pipelines & ETL",
+      "Production LLM integration & prompt engineering"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "ML Engineer",
+    "company": "Citibank",
+    "startDate": "2018-09",
+    "endDate": "2024-04",
+    "location": "Dallas, USA",
+    "description": "Built machine learning models for fraud detection. Designed and maintained enterprise ETL pipelines and data warehousing infrastructure.",
+    "architectureUrl": "https://dineshsekar28.github.io/Fraud-ML-Architecture/",
+    "highlights": [
+      "Fraud detection ML models",
+      "ETL pipeline design & optimization",
+      "Data warehouse architecture",
+      "SQL & Python backend development"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "ETL Data Manager",
+    "company": "Royal Bank of Scotland",
+    "startDate": "2013-01",
+    "endDate": "2016-12",
+    "location": "Edinburgh, Scotland",
+    "description": "Managed enterprise ETL processes and data management infrastructure for banking operations.",
+    "architectureUrl": null,
+    "highlights": [
+      "ETL pipeline management",
+      "Data quality & governance",
+      "SQL & database optimization",
+      "Stakeholder reporting"
+    ]
+  }
+], 
   "education": [
     {
       "id": 1,

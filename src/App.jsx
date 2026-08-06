@@ -12,7 +12,7 @@ import Certifications from './components/Certifications';
 
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   useEffect(() => {
     const saved = localStorage.getItem('darkMode');
@@ -24,9 +24,13 @@ function App() {
   }, []);
 
   useEffect(() => {
-    localStorage.setItem('darkMode', JSON.stringify(isDarkMode));
-    document.documentElement.setAttribute('data-theme', isDarkMode ? 'dark' : 'light');
-  }, [isDarkMode]);
+  const saved = localStorage.getItem('darkMode');
+  if (saved) {
+    setIsDarkMode(JSON.parse(saved));
+  } else {
+    setIsDarkMode(true);  // Change to true
+  }
+  }, []);
 
   return (
     <div className={`app ${isDarkMode ? 'dark' : 'light'}`}>
