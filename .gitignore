@@ -1,18 +1,14 @@
 # Node dependencies
 node_modules/
-
-# Lockfile (optional): the project previously ignored package-lock.json
 package-lock.json
 
 # Build output
-build/
-static/
-
-# Generated public outputs
-/public/
+/build/
+/dist/
 
 # Environment files
 .env
+.env.local
 .env.*.local
 
 # Logs
@@ -25,18 +21,25 @@ logs/
 # IDEs and editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # OS files
 .DS_Store
 Thumbs.db
 
 # Local mounts and outputs
-mnt/
-user-data/
-outputs/
+/mnt/
+/user-data/
+/outputs/
 
 # Coverage
-coverage/
+/coverage/
 
 # Misc
 *.local
+.cache/
+
+# Allow public folder and contents
+!public/
+!public/**
