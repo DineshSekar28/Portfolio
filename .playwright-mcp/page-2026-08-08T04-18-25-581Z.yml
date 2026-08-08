@@ -1,0 +1,267 @@
+- generic [ref=f6e3]:
+  - banner [ref=f6e4]:
+    - generic [ref=f6e5]:
+      - link "DS" [ref=f6e6] [cursor=pointer]:
+        - /url: "#home"
+      - button "Toggle dark mode" [ref=f6e7] [cursor=pointer]
+  - generic [ref=f6e16]:
+    - generic [ref=f6e17]:
+      - paragraph [ref=f6e18]: Hi there, I'm
+      - heading "Dinesh Sekar" [level=1] [ref=f6e19]
+      - paragraph [ref=f6e20]: AI/ML Architect | GenAI Orchestration | Enterprise Solutions
+      - paragraph [ref=f6e21]: Lead AI Architect at Citibank with 10+ years in banking and fintech. Specialized in GenAI orchestration, agentic systems, and enterprise-scale ML infrastructure. Expertise building deterministic, policy-driven GenAI platform for regulated finance.
+      - generic [ref=f6e22]:
+        - link "View GitHub" [ref=f6e23] [cursor=pointer]:
+          - /url: https://github.com/DineshSekar28
+        - link "Get in Touch" [ref=f6e24] [cursor=pointer]:
+          - /url: mailto:dinesh.sekar91@gmail.com
+      - generic [ref=f6e25]:
+        - link "GitHub" [ref=f6e26] [cursor=pointer]:
+          - /url: https://github.com/DineshSekar28
+        - link "LinkedIn" [ref=f6e29] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/dinesh-sekar/
+        - link "Medium" [ref=f6e32] [cursor=pointer]:
+          - /url: https://medium.com/@dineshsekar_65514
+        - link "Email" [ref=f6e35] [cursor=pointer]:
+          - /url: mailto:dinesh.sekar91@gmail.com
+    - img "Dinesh Sekar" [ref=f6e40]
+  - generic [ref=f6e42]:
+    - heading "01 Experience" [level=2] [ref=f6e43]
+    - generic [ref=f6e44]:
+      - generic [ref=f6e45]:
+        - heading "Lead AI Architect" [level=3] [ref=f6e46]
+        - generic [ref=f6e47]: Citibank • Dallas, USA • Apr 2024 – Present
+        - paragraph [ref=f6e48]: "Architecting a deterministic, policy-driven GenAI orchestration platform for regulated banking. Own AI/ML layer: GenAI models, Knowledge Graph, Model Governance, Data Pipelines, Analytics."
+        - generic [ref=f6e49]:
+          - generic [ref=f6e50]: GenAI orchestration & agentic systems
+          - generic [ref=f6e51]: Confidence-gated retrieval (not RAG)
+          - generic [ref=f6e52]: Knowledge Graph design & implementation
+          - generic [ref=f6e53]: Model governance & compliance layer
+          - generic [ref=f6e54]: Enterprise data pipelines & ETL
+          - generic [ref=f6e55]: Production LLM integration & prompt engineering
+        - link "View Architecture →" [ref=f6e56] [cursor=pointer]:
+          - /url: https://architecture.sekarvr.com/
+      - generic [ref=f6e57]:
+        - heading "ML Engineer" [level=3] [ref=f6e58]
+        - generic [ref=f6e59]: Citibank • Dallas, USA • Sep 2018 – Apr 2024
+        - paragraph [ref=f6e60]: Built machine learning models for fraud detection. Designed and maintained enterprise ETL pipelines and data warehousing infrastructure.
+        - generic [ref=f6e61]:
+          - generic [ref=f6e62]: Fraud detection ML models
+          - generic [ref=f6e63]: ETL pipeline design & optimization
+          - generic [ref=f6e64]: Data warehouse architecture
+          - generic [ref=f6e65]: SQL & Python backend development
+        - link "View Architecture →" [ref=f6e66] [cursor=pointer]:
+          - /url: https://dineshsekar28.github.io/Fraud-ML-Architecture/
+      - generic [ref=f6e67]:
+        - heading "ETL Data Manager" [level=3] [ref=f6e68]
+        - generic [ref=f6e69]: Royal Bank of Scotland • Edinburgh, Scotland • Jan 2013 – Dec 2016
+        - paragraph [ref=f6e70]: Managed enterprise ETL processes and data management infrastructure for banking operations.
+        - generic [ref=f6e71]:
+          - generic [ref=f6e72]: ETL pipeline management
+          - generic [ref=f6e73]: Data quality & governance
+          - generic [ref=f6e74]: SQL & database optimization
+          - generic [ref=f6e75]: Stakeholder reporting
+  - generic [ref=f6e77]:
+    - heading "02 Skills & Expertise" [level=2] [ref=f6e78]
+    - generic [ref=f6e79]:
+      - generic [ref=f6e80]:
+        - heading "GenAI & LLM Core" [level=3] [ref=f6e81]
+        - list [ref=f6e82]:
+          - listitem [ref=f6e83]: LLMs (Large Language Models)
+          - listitem [ref=f6e84]: RAG (Retrieval-Augmented Generation)
+          - listitem [ref=f6e85]: Prompt Engineering
+          - listitem [ref=f6e86]: Transformer Architectures
+          - listitem [ref=f6e87]: Vector Databases
+          - listitem [ref=f6e88]: Embeddings
+          - listitem [ref=f6e89]: GPT-4
+          - listitem [ref=f6e90]: Claude
+      - generic [ref=f6e91]:
+        - heading "Agentic AI Systems" [level=3] [ref=f6e92]
+        - list [ref=f6e93]:
+          - listitem [ref=f6e94]: Autonomous Agents
+          - listitem [ref=f6e95]: Multi-Agent Orchestration
+          - listitem [ref=f6e96]: Planning/Reasoning
+          - listitem [ref=f6e97]: LangChain
+          - listitem [ref=f6e98]: LangChain Agents
+          - listitem [ref=f6e99]: Tool Chaining
+          - listitem [ref=f6e100]: Agent Memory
+          - listitem [ref=f6e101]: Workflow Automation
+      - generic [ref=f6e102]:
+        - heading "Fine-Tuning & Optimization" [level=3] [ref=f6e103]
+        - list [ref=f6e104]:
+          - listitem [ref=f6e105]: Fine-tuning
+          - listitem [ref=f6e106]: LoRA (Low-Rank Adaptation)
+          - listitem [ref=f6e107]: Hugging Face
+          - listitem [ref=f6e108]: LangGraph
+          - listitem [ref=f6e109]: Inference Optimization
+          - listitem [ref=f6e110]: Semantic Search
+      - generic [ref=f6e111]:
+        - heading "Production & DevOps" [level=3] [ref=f6e112]
+        - list [ref=f6e113]:
+          - listitem [ref=f6e114]: Docker
+          - listitem [ref=f6e115]: Kubernetes
+          - listitem [ref=f6e116]: CI/CD Pipelines
+          - listitem [ref=f6e117]: Model Versioning
+          - listitem [ref=f6e118]: PyTorch
+          - listitem [ref=f6e119]: Containerization
+          - listitem [ref=f6e120]: Model Serving
+      - generic [ref=f6e121]:
+        - heading "Data & Knowledge Systems" [level=3] [ref=f6e122]
+        - list [ref=f6e123]:
+          - listitem [ref=f6e124]: Databricks
+          - listitem [ref=f6e125]: Apache Spark
+          - listitem [ref=f6e126]: dbt
+          - listitem [ref=f6e127]: ETL Pipelines
+          - listitem [ref=f6e128]: Data Preprocessing
+          - listitem [ref=f6e129]: Model Drift Detection
+          - listitem [ref=f6e130]: Performance Monitoring
+      - generic [ref=f6e131]:
+        - heading "Enterprise & Compliance" [level=3] [ref=f6e132]
+        - list [ref=f6e133]:
+          - listitem [ref=f6e134]: API Integration
+          - listitem [ref=f6e135]: Data Governance
+          - listitem [ref=f6e136]: PII Handling
+          - listitem [ref=f6e137]: Audit Trails
+          - listitem [ref=f6e138]: Model Risk Management
+          - listitem [ref=f6e139]: Explainability
+          - listitem [ref=f6e140]: Responsible AI
+      - generic [ref=f6e141]:
+        - heading "Cloud & Infrastructure" [level=3] [ref=f6e142]
+        - list [ref=f6e143]:
+          - listitem [ref=f6e144]: AWS
+          - listitem [ref=f6e145]: Azure
+          - listitem [ref=f6e146]: Azure OpenAI
+          - listitem [ref=f6e147]: Azure ML
+          - listitem [ref=f6e148]: Terraform
+          - listitem [ref=f6e149]: Infrastructure as Code
+      - generic [ref=f6e150]:
+        - heading "Security & Governance" [level=3] [ref=f6e151]
+        - list [ref=f6e152]:
+          - listitem [ref=f6e153]: GDPR
+          - listitem [ref=f6e154]: Encryption
+          - listitem [ref=f6e155]: Access Controls
+          - listitem [ref=f6e156]: Data Quality
+          - listitem [ref=f6e157]: Regulatory Readiness
+          - listitem [ref=f6e158]: Anomaly Detection
+  - generic [ref=f6e160]:
+    - heading "Certifications" [level=2] [ref=f6e161]
+    - generic [ref=f6e162]:
+      - generic [ref=f6e163]:
+        - img "Microsoft" [ref=f6e165]
+        - generic [ref=f6e166]:
+          - 'heading "Microsoft Certified: Azure Data Scientist Associate" [level=3] [ref=f6e167]'
+          - paragraph [ref=f6e168]: Microsoft
+          - generic [ref=f6e169]: Issued Dec 2024
+          - link "View Credential →" [ref=f6e171] [cursor=pointer]:
+            - /url: https://learn.microsoft.com/api/credentials/share/en-us/DineshSekar-4342/F11FD042EE9A23EE?sharingId=55C0B313544F9210
+      - generic [ref=f6e172]:
+        - img "IBM" [ref=f6e174]
+        - generic [ref=f6e175]:
+          - heading "Python for Data Science and AI" [level=3] [ref=f6e176]
+          - paragraph [ref=f6e177]: IBM
+          - generic [ref=f6e178]: Issued Mar 2023
+          - link "View Credential →" [ref=f6e180] [cursor=pointer]:
+            - /url: https://www.credly.com/badges/d601b2c4-97ae-402e-92df-9def94bd2d2e/public_url
+      - generic [ref=f6e181]:
+        - img "The Linux Foundation" [ref=f6e183]
+        - generic [ref=f6e184]:
+          - heading "Authentication and Authorization for Web/API (LFEL1004)" [level=3] [ref=f6e185]
+          - paragraph [ref=f6e186]: The Linux Foundation
+          - generic [ref=f6e187]: Issued Jul 2026
+          - link "View Credential →" [ref=f6e189] [cursor=pointer]:
+            - /url: https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/b80504b0-d587-411f-89f1-c7c63be7411b-dinesh-sekar-3b469ab0-7a83-4686-9674-35a8efeef3df-certificate.pdf
+      - generic [ref=f6e190]:
+        - img "University of Maryland" [ref=f6e192]
+        - generic [ref=f6e193]:
+          - heading "AI and Career Empowerment" [level=3] [ref=f6e194]
+          - paragraph [ref=f6e195]: University of Maryland
+          - link "View Credential →" [ref=f6e196] [cursor=pointer]:
+            - /url: https://umd-smithlearn.catalog.instructure.com/certificates/ai-and-career-empowerment-81805.pdf
+  - generic [ref=f6e198]:
+    - heading "03 Featured Projects" [level=2] [ref=f6e199]
+    - generic [ref=f6e200]:
+      - generic [ref=f6e202]:
+        - heading "Parsemoney" [level=3] [ref=f6e203]
+        - generic [ref=f6e204]: Live
+        - paragraph [ref=f6e205]: Claude-specific API gateway & OpenAI-to-Claude translation layer. End-to-end verified auth, real API calls, prompt cache hit cycle.
+        - generic [ref=f6e206]:
+          - generic [ref=f6e207]: Go
+          - generic [ref=f6e208]: React
+          - generic [ref=f6e209]: PostgreSQL
+          - generic [ref=f6e210]: LLM
+          - generic [ref=f6e211]: API Gateway
+        - link "View on GitHub →" [ref=f6e213] [cursor=pointer]:
+          - /url: https://github.com/DineshSekar28/parsemoney
+      - generic [ref=f6e217]:
+        - heading "Tokenomics" [level=3] [ref=f6e218]
+        - generic [ref=f6e219]: Live
+        - paragraph [ref=f6e220]: Multilingual AI tokenomics dashboard. Visualizes BPE tokenizer inefficiency across non-Latin scripts with interactive charts.
+        - generic [ref=f6e221]:
+          - generic [ref=f6e222]: React/Vite
+          - generic [ref=f6e223]: FastAPI
+          - generic [ref=f6e224]: Tokenization
+          - generic [ref=f6e225]: Data Viz
+        - link "View on GitHub →" [ref=f6e227] [cursor=pointer]:
+          - /url: https://github.com/DineshSekar28/Tokenomics
+      - generic [ref=f6e231]:
+        - heading "MARIS" [level=3] [ref=f6e232]
+        - generic [ref=f6e233]: Live
+        - paragraph [ref=f6e234]: MultiAgent App Review Intelligence System. Agentic pipeline for intelligent review analysis and insights.
+        - generic [ref=f6e235]:
+          - generic [ref=f6e236]: Python
+          - generic [ref=f6e237]: Agentic
+          - generic [ref=f6e238]: FastAPI
+          - generic [ref=f6e239]: LLM
+        - link "View on GitHub →" [ref=f6e241] [cursor=pointer]:
+          - /url: https://github.com/DineshSekar28/maris
+    - heading "Other Projects" [level=2] [ref=f6e244]
+    - generic [ref=f6e245]:
+      - generic [ref=f6e247]:
+        - heading "Auriferous" [level=3] [ref=f6e248]
+        - generic [ref=f6e249]: Concept
+        - paragraph [ref=f6e250]: AI-powered interview screening simulator. DeepSeek-powered 3-stage agentic pipeline for technical interviews.
+        - generic [ref=f6e251]:
+          - generic [ref=f6e252]: Python
+          - generic [ref=f6e253]: Agentic
+          - generic [ref=f6e254]: DeepSeek
+          - generic [ref=f6e255]: PostgreSQL
+      - generic [ref=f6e257]:
+        - heading "BingeBoard" [level=3] [ref=f6e258]
+        - generic [ref=f6e259]: Live
+        - paragraph [ref=f6e260]: Media recommender system with intelligent content suggestions.
+        - generic [ref=f6e261]:
+          - generic [ref=f6e262]: React
+          - generic [ref=f6e263]: Python
+          - generic [ref=f6e264]: Recommendation Engine
+        - link "View on GitHub →" [ref=f6e266] [cursor=pointer]:
+          - /url: https://github.com/DineshSekar28/BingeBoard
+      - generic [ref=f6e270]:
+        - heading "Credit Card Approval ML" [level=3] [ref=f6e271]
+        - generic [ref=f6e272]: Live
+        - paragraph [ref=f6e273]: Machine learning model for credit card approval prediction.
+        - generic [ref=f6e274]:
+          - generic [ref=f6e275]: Python
+          - generic [ref=f6e276]: ML
+          - generic [ref=f6e277]: Scikit-learn
+        - link "View on GitHub →" [ref=f6e279] [cursor=pointer]:
+          - /url: https://github.com/DineshSekar28/CreditCardApproval-ML
+  - generic [ref=f6e283]:
+    - heading "04 Publications" [level=2] [ref=f6e284]
+    - generic [ref=f6e287]:
+      - link [ref=f6e288] [cursor=pointer]:
+        - /url: https://medium.com/@dineshsekar_65514/parsemoney-a-request-translation-layer-for-llm-and-what-it-actually-costs-to-cache-a-prompt-053614074ad5
+        - heading "Request-Translation Layer for LLM, and What It Actually Costs to Cache a Prompt" [level=3] [ref=f6e289]
+      - generic [ref=f6e292]: Medium • Jul 17, 2024
+      - paragraph [ref=f6e293]: Gateway projects solve the easy problem. This explores real costs, caching strategies, and production-grade LLM integration.
+  - contentinfo [ref=f6e294]:
+    - generic [ref=f6e296]:
+      - generic [ref=f6e297]:
+        - link "GitHub" [ref=f6e298] [cursor=pointer]:
+          - /url: https://github.com/DineshSekar28
+        - link "LinkedIn" [ref=f6e301] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/dinesh-sekar/
+        - link "Medium" [ref=f6e304] [cursor=pointer]:
+          - /url: https://medium.com/@dineshsekar_65514
+        - link "Email" [ref=f6e307] [cursor=pointer]:
+          - /url: mailto:dinesh@sekarvr.com
+      - paragraph [ref=f6e310]: © 2024 Dinesh Sekar. Built with React. Designed for clarity.
