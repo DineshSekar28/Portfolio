@@ -17,7 +17,7 @@ function Certifications({ data }) {
             <div key={cert.id} className={`certification-card ${cert.status}`}>
               <div className="cert-logo-wrap">
                 <img
-                  src={`/Portfolio/logos/${cert.logo}`}
+                  src={`${process.env.PUBLIC_URL}/logos/${cert.logo}`}
                   alt={cert.issuer}
                   className="cert-logo"
                 />
