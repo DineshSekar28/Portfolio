@@ -35,7 +35,7 @@ function Hero({ data }) {
           </div>
           <div className="hero-image">
             <div className="hero-image-frame">
-              <img src={`/Portfolio/${data.headshot}`} alt={data.name} />
+              <img src={`${process.env.PUBLIC_URL}/${data.headshot}`} alt={data.name} />
             </div>
           </div>
         </div>
